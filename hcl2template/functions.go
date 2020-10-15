@@ -74,6 +74,7 @@ func Functions(basedir string) map[string]function.Function {
 		"md5":             crypto.Md5Func,
 		"merge":           stdlib.MergeFunc,
 		"min":             stdlib.MinFunc,
+		"packer_version":  pkrfunction.PackerVersionFunc,
 		"parseint":        stdlib.ParseIntFunc,
 		"pathexpand":      filesystem.PathExpandFunc,
 		"pow":             stdlib.PowFunc,
